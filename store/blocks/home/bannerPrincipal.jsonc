@@ -1,0 +1,35 @@
+{"list-context.image-list#bannerPrincial": {
+    "children": ["slider-layout#bannerPrincial-images"],
+    "props": {
+      "height": 400,
+      
+      "images": [
+        {
+          "image": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/0de41a46-bbe1-4a8d-8c4d-7ae4d6f2903b___146a82c4537e69dbcb09779a62aa8596.jpg",
+          "mobileImage": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/fc048a65-03c8-4d6b-a22a-158a2b87d5dd___6d62bb286a5153ac337e9a7bd5777b97.jpg"
+        },
+        {
+          "image": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/0de41a46-bbe1-4a8d-8c4d-7ae4d6f2903b___146a82c4537e69dbcb09779a62aa8596.jpg",
+          "mobileImage": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/fc048a65-03c8-4d6b-a22a-158a2b87d5dd___6d62bb286a5153ac337e9a7bd5777b97.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#bannerPrincial-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "carousel",
+      "fullWidth":false,
+      "autoplay":{
+        "timeout":4000,
+        "stopOwner":true
+      }
+    }
+  }
+}

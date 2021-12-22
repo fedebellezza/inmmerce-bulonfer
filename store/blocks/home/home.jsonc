@@ -1,9 +1,26 @@
 {
   "store.home": { 
     "blocks": [
+      "list-context.image-list#bannerPrincial",
+      "flex-layout.row#deals",
+      "flex-layout.row#TituloPrincipal",
+      "flex-layout.row#shelfPrincipal",
       "rich-text"
     ]
   },
+ 
+  "flex-layout.row#TituloPrincipal":{
+    "children":["rich-text#TituloPrincipal"]
+},
+      "rich-text#TituloPrincipal": {
+          "props": {
+          "text": "## Summer",
+          "blockClass": "TituloPrincipal",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heading-1"
+          }
+      },
   "rich-text": { 
     "props": { 
       "text": "VTEX Store Framework",
