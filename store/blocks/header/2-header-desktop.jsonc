@@ -10,14 +10,10 @@
       },
       "children": [
         "flex-layout.col#logodesktop",
-        "flex-layout.col#header-Spacer",
         "flex-layout.col#searchbar",
         "flex-layout.col#login",
         "flex-layout.col#minicart.v2"
       ]
-  },
-  "flex-layout.col#header-Spacer":{
-    "children":["header-spacer"]
   },
 
   "flex-layout.col#logodesktop":{
