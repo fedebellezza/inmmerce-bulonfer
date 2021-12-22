@@ -19,24 +19,27 @@
   "flex-layout.col#header-Spacer":{
     "children":["header-spacer"]
   },
+
   "flex-layout.col#logodesktop":{
-    "children":["logo#desktop"]      
-    },
-    "logo#desktop":{
-    "props": {
-      "horizontalAlign": "left",
-      "verticalAlign": "left",
-      "title": "Logo Bulonfer",
-      "href": "/",
-      "url": "https://bulonfer.vtexassets.com/assets/vtex/assets-builder/bulonfer.lund-theme-1-0-0/1.33.0/bulonferlogonuevo___44819ebb2332c304925117c15d169824.png",
-      "width": "178"
-    }
+      "children":["logo#desktop"]      
+      },
+
+      "logo#desktop":{
+          "props": {
+            "horizontalAlign": "left",
+            "verticalAlign": "left",
+            "title": "Logo Bulonfer",
+            "href": "/",
+            "url": "https://bulonfer.vtexassets.com/assets/vtex/assets-builder/bulonfer.lund-theme-1-0-0/1.33.0/bulonferlogonuevo___44819ebb2332c304925117c15d169824.png",
+            "width": "178"
+          }
   },
-    "flex-layout.col#searchbar":{
-      "children":["search-bar"]
-    },
+
+  "flex-layout.col#searchbar":{
+    "children":["search-bar"]
+  },
     
-    "flex-layout.col#login":{
+  "flex-layout.col#login":{
       "children":["login"]
       
     }, 
