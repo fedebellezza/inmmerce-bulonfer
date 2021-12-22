@@ -1,0 +1,59 @@
+{
+    "flex-layout.row#2-header-desktop": {
+      "props":{
+        "blockClass":"row-logo",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "fullWidth": false
+
+      },
+      "children": [
+        "flex-layout.col#logodesktop",
+        "flex-layout.col#header-Spacer",
+        "flex-layout.col#searchbar",
+        "flex-layout.col#login",
+        "flex-layout.col#minicart.v2"
+      ]
+  },
+  "flex-layout.col#header-Spacer":{
+    "children":["header-spacer"]
+  },
+  "flex-layout.col#logodesktop":{
+    "children":["logo#desktop"]      
+    },
+    "logo#desktop":{
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "left",
+      "title": "Logo Bulonfer",
+      "href": "/",
+      "url": "https://bulonfer.vtexassets.com/assets/vtex/assets-builder/bulonfer.lund-theme-1-0-0/1.33.0/bulonferlogonuevo___44819ebb2332c304925117c15d169824.png",
+      "width": "178"
+    }
+  },
+    "flex-layout.col#searchbar":{
+      "children":["search-bar"]
+    },
+    
+    "flex-layout.col#login":{
+      "children":["login"]
+      
+    }, 
+        "login":{
+          "props": {
+            "verticalAlign": "center",
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true
+          }
+        },
+
+    "flex-layout.col#minicart.v2":{
+      "children":["minicart.v2"]
+      
+    }
+
+}  

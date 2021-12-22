@@ -1,0 +1,12 @@
+{
+    "flex-layout.row#3-header-desktop": {
+        "children": [
+            "menu-inmmerce"
+          ],
+        "props":{
+            "fullWidth":false
+        }        
+    }
+
+  }
+  

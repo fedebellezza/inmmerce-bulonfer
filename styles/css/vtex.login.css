@@ -1,0 +1,17 @@
+.container{
+    vertical-align: middle;
+    flex-direction: right;
+    padding-top: 00.75rem;
+    
+}
+
+.container button{
+    text-align: right;
+
+}
+
+.label{
+    right: auto;
+    text-align: right;
+    flex-direction: row;
+}

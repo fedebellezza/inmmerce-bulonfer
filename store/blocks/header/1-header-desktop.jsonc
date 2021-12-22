@@ -1,0 +1,229 @@
+{
+    "flex-layout.row#1-header-desktop": {
+        "props": {
+          "blockClass": "topbar--desktop",
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "fullWidth": false
+        },
+        "children": [
+          "vtex.menu@2.x:menu#left",
+          "header-spacer",
+          "vtex.menu@2.x:menu#right"
+        ]
+      },
+      "vtex.menu@2.x:menu#left":{
+        "children": [
+          "menu-item#seguimiento",
+          "menu-item#servicio-tecnico",
+          "menu-item#nosotros"
+        ]
+      },
+
+      "menu-item#seguimiento": {
+        "props": {
+          "id": "menu-item-seguimiento",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://www.andreani.com/#!/personas",
+            "noFollow": false,
+            "tagTitle": "Segui tu Envio",
+            "text": "Segui tu Envio"
+          },
+          "iconProps": {
+            "id": "mpa-list-items",
+            "size": 16,
+            "viewBox": "0 0 16 16",
+            "activeClassName": "rebel-pink",
+            "mutedClassName": "c-action-primary"
+          },
+          "iconToTheRight": true
+        }
+      },
+      "menu-item#servicio-tecnico": {
+        "props": {
+          "id": "menu-item-servicio-tecnico",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://api.whatsapp.com/send?phone=5492494305447",
+            "noFollow": false,
+            "tagTitle": "Servicio Tecnico",
+            "text": "Servicio Tecnico"
+          },
+          "iconProps": {
+            "id": "mpa-store",
+            "size": 16,
+            "viewBox": "0 0 16 16",
+            "activeClassName": "rebel-pink",
+            "mutedClassName": "c-action-primary"
+          },
+          "iconToTheRight": true
+        }
+      },
+      "menu-item#nosotros": {
+        "props": {
+          "id": "menu-item-nosotros",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://api.whatsapp.com/send?phone=5492494305447",
+            "noFollow": false,
+            "tagTitle": "Nosotros",
+            "text": "Nosotros"
+          },
+          "iconProps": {
+            "id": "inf-tooltip--outline",
+            "size": 16,
+            "viewBox": "0 0 16 16",
+            "activeClassName": "rebel-pink",
+            "mutedClassName": "c-action-primary"
+          },
+          "iconToTheRight": true
+        }
+      },
+
+      "vtex.menu@2.x:menu#right":{
+        "children": [
+          "menu-item#mayorista"
+        ]
+      },
+
+      "menu-item#mayorista": {
+        "props": {
+          "id": "menu-item-mayorista",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://mayoristas.bulonfer.com/",
+            "noFollow": false,
+            "tagTitle": "Venta Mayorista",
+            "text": "Venta Mayorista"
+          },
+          "iconProps": {
+            "id": "hpa-cart",
+            "size": 16,
+            "viewBox": "0 0 16 16",
+            "activeClassName": "rebel-pink",
+            "mutedClassName": "c-action-primary"
+          },
+          "iconToTheRight": true
+        }
+      },
+/*--------------------------------------------------------------------*/
+      "flex-layout.col#topbar-left": {
+        "props": {
+          "blockClass": "topbar--desktop__left"
+        },
+        "children": [
+          "flex-layout.row#tracking",
+          "flex-layout.row#service",
+          "flex-layout.row#aboutus-topbar"
+        ]
+      },
+      "flex-layout.row#tracking": {
+        "props": {
+          "blockClass": "image-link"
+        },
+        "children": [
+          "image#tracking",
+          "link.product#tracking"
+        ]
+      },
+      "flex-layout.row#service": {
+        "props": {
+          "blockClass": "image-link"
+        },
+        "children": [
+          "image#service",
+          "link.product#service"
+        ]
+      },
+      "flex-layout.row#aboutus-topbar": {
+        "props": {
+          "blockClass": "image-link"
+        },
+        "children": [
+          "image#about-us",
+          "link.product#about-us"
+        ]
+      },
+      // LINKS DEL TOPBAR
+      "image#tracking": {
+        "props": {
+          "blockClass": "topbar-icons",
+          "src": "/assets/topbar-camion.png",
+          "maxHeight": 19
+        }
+      },
+      "link.product#tracking": {
+        "props": {
+          "href": "https://www.andreani.com/#!/personas",
+          "label": "Seguimiento de Envio",
+          "blockClass": "link--topbar"
+        }
+      },
+      "image#service": {
+        "props": {
+          "blockClass": "topbar-icons",
+          "src": "/assets/topbar-llave.png",
+          "maxHeight": 24
+        }
+      },
+      "link.product#service": {
+        "props": {
+          "href": "https://api.whatsapp.com/send?phone=5492494305447",
+          "label": "Servicio Tecnico",
+          "blockClass": "link--topbar"
+        }
+      },
+      "image#about-us": {
+        "props": {
+          "blockClass": "topbar-icons",
+          "src": "/assets/topbar-llave.png",
+          "maxHeight": 24
+        }
+      },
+      "link.product#about-us": {
+        "props": {
+          "href": "/{slug}/p",
+          "label": "Nosotros",
+          "blockClass": "link--topbar"
+        }
+      },
+      "image#topbar-b2b": {
+        "props": {
+          "blockClass": "topbar-icons",
+          "src": "/assets/topbar-bulon.png",
+          "maxHeight": 24
+        }
+      },
+      "link.product#b2b": {
+        "props": {
+          "href": "https://mayoristas.bulonfer.com/",
+          "label": "Venta Mayorista",
+          "blockClass": "link--topbar"
+        }
+      },
+      // FIN DE LOS LINKS DEL TOP BAR
+      "flex-layout.col#topbar-right": {
+        "props": {
+          "blockClass": "topbar--desktop__right"
+        },
+        "children": [
+          "flex-layout.col#b2b"
+        ]
+      },
+      "flex-layout.col#b2b": {
+        "children": [
+          "image#topbar-b2b",
+          "link.product#b2b"
+        ]
+      }
+  }
+  
