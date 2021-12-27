@@ -1,0 +1,26 @@
+.styledLinkIcon{
+    color: #00b7cd;
+
+}
+
+.styledLinkContainer{
+    margin-left: 0;
+    padding-left: 0;
+
+}
+
+.menuContainer--topbarMenuLeft{
+    margin-left: 0;
+    padding-left: 0;
+
+}
+
+.menuContainer--topbarMenuRight{
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: right;
+    margin-right: 0;
+    padding-right: 0;
+}

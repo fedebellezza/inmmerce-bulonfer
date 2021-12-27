@@ -14,7 +14,7 @@
 },
       "rich-text#TituloPrincipal": {
           "props": {
-          "text": "## Summer",
+          "text": "## Super Ofertas",
           "blockClass": "TituloPrincipal",
           "textAlignment": "CENTER",
           "textPosition": "CENTER",

@@ -17,7 +17,10 @@
           "menu-item#seguimiento",
           "menu-item#servicio-tecnico",
           "menu-item#nosotros"
-        ]
+        ],
+        "props": {
+          "blockClass": "topbarMenuLeft"
+        }
       },
 
       "menu-item#seguimiento": {
@@ -36,7 +39,7 @@
             "id": "mpa-list-items",
             "size": 16,
             "viewBox": "0 0 16 16",
-            "activeClassName": "rebel-pink",
+            "activeClassName": "bulonfer",
             "mutedClassName": "c-action-primary"
           },
           "iconToTheRight": true
@@ -58,7 +61,7 @@
             "id": "mpa-store",
             "size": 16,
             "viewBox": "0 0 16 16",
-            "activeClassName": "rebel-pink",
+            "activeClassName": "bulonfer",
             "mutedClassName": "c-action-primary"
           },
           "iconToTheRight": true
@@ -80,7 +83,7 @@
             "id": "inf-tooltip--outline",
             "size": 16,
             "viewBox": "0 0 16 16",
-            "activeClassName": "rebel-pink",
+            "activeClassName": "bulonfer",
             "mutedClassName": "c-action-primary"
           },
           "iconToTheRight": true
@@ -88,6 +91,9 @@
       },
 
       "vtex.menu@2.x:menu#right":{
+        "props": {
+          "blockClass": "topbarMenuRight"
+        },
         "children": [
           "menu-item#mayorista"
         ]
@@ -109,7 +115,7 @@
             "id": "hpa-cart",
             "size": 16,
             "viewBox": "0 0 16 16",
-            "activeClassName": "rebel-pink",
+            "activeClassName": "bulonfer",
             "mutedClassName": "c-action-primary"
           },
           "iconToTheRight": true
