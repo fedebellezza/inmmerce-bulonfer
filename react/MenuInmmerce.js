@@ -71,10 +71,10 @@ const MenuInmmerce = () => {
         </ul>
       </Dropdown>
       <a
-        href="/construccion?map=category-1"
+        href="/ferreteria-p"
         className="no-underline lh-copy black-90 t-small b link"
       >
-        Construcción
+        Ferreteria
       </a>
       <a
         href="/herramientas?map=category-1"
