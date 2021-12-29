@@ -6,6 +6,25 @@
     text-align: right;
 }
 
-.flex-layout.col--searchbar{
-    width: 80%;
+.flexCol--busqueda{
+    width: 100%;
 }
+.flexColChild--busqueda{
+    width: 100%;
+}
+
+.flexColChild{
+    width: 100%;
+}
+.flexRow--deals{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.flexRow--bannersOfertas{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+

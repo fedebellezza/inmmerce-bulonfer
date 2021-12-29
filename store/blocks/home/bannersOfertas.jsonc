@@ -1,0 +1,118 @@
+{
+  "flex-layout.row#bannersOfertas":{
+    "props":{
+      "blockClass":"bannersOfertas"
+    },
+      "children":[
+          "flex-layout.col#col1",
+          "flex-layout.col#col2",
+          "flex-layout.col#col3"
+      ]
+  },
+  "flex-layout.col#col1":{
+      "children":[
+          "flex-layout.row#col1img1",
+          "flex-layout.row#col1img2"
+      ]      
+
+  },
+          "flex-layout.row#col1img1":{
+            "children": [
+              "image#img1"
+              
+            ]
+            
+          },
+          "image#img1": {
+            "props": {
+              "blockClass":"imgx2",
+              "src": "https://arcencohogareasy.vtexassets.com/assets/vtex.file-manager-graphql/images/1b816ae2-2c09-4a36-baa1-8ba8faa14e54___9dcfdf2504b1bfb378ac53bf9015d22a.jpg",
+              "maxHeight": "240px",
+              "link": {
+                "newTab": false,
+                "url":"www.bulonfer.com"
+              }
+            }
+          },
+
+          "flex-layout.row#col1img2":{
+            "children": [
+              "image#img2"
+              
+            ]
+          
+          },
+          "image#img2": {
+            "props": {
+              "blockClass":"imgx2",
+              "src": "https://arcencohogareasy.vtexassets.com/assets/vtex.file-manager-graphql/images/606d2117-4d06-4bd4-b8b9-529b13ea5977___e925a3f2874d82fa0bbb797008bd1a39.jpg",
+              "maxHeight": "240px",
+              "link": {
+                "newTab": false,
+                "url":"www.bulonfer.com"
+              }
+            }
+          },
+
+  "flex-layout.col#col2":{
+    "children": [
+      "image#img3"
+      
+    ]
+  },
+      "image#img3": {
+        "props": {
+          "blockClass":"imgx1",
+          "src": "https://arcencohogareasy.vtexassets.com/assets/vtex.file-manager-graphql/images/df29cb30-bcdb-4dc2-b7b0-d467c42ea4f7___700af1d823940b302c40707102f380e5.jpg",
+          "maxHeight": "480px",
+          "link":{
+            "newTab": false,
+            "url":"www.bulonfer.com"
+          } 
+        }
+      },    
+  
+  "flex-layout.col#col3":{
+      "children":[
+          "flex-layout.row#col3img1",
+          "flex-layout.row#col3img2"
+      ]      
+
+  },
+          "flex-layout.row#col3img1":{
+            "children": [
+              "image#img4"
+              
+            ]
+           
+          },
+          "image#img4": {
+            "props": {
+              "blockClass":"imgx2",
+              "src": "https://arcencohogareasy.vtexassets.com/assets/vtex.file-manager-graphql/images/37936084-185e-4f8b-a514-2cdb78975f08___3f1a22452647a6ae83cb84e377384c2d.jpg",
+              "maxHeight": "240px",
+              "link": {
+                "newTab": false,
+                "url":"www.bulonfer.com"
+              }
+            }
+          },
+          "flex-layout.row#col3img2":{
+            "children": [
+              "image#img5"
+              
+            ]
+           
+          },
+          "image#img5": {
+            "props": {
+              "blockClass":"imgx2",
+              "src": "https://arcencohogareasy.vtexassets.com/assets/vtex.file-manager-graphql/images/cb31fc32-1b7e-4093-abd1-a0a83dd451db___a2ddcef85fe902a995cde924b14f7e08.jpg",
+              "maxHeight": "240px",
+              "link": {
+                "newTab": false,
+                "url":"www.bulonfer.com"
+              }
+            }
+          }
+}

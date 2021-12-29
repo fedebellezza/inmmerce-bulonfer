@@ -12,6 +12,7 @@
         "flex-layout.col#logodesktop",
         "flex-layout.col#spacer",
         "flex-layout.col#searchbar",
+        "flex-layout.col#spacer",
         "flex-layout.col#login",
         "flex-layout.col#minicart.v2"
       ]
@@ -39,7 +40,10 @@
   },
 
   "flex-layout.col#searchbar":{
-    "children":["search-bar"]
+    "children":["search-bar"],
+    "props":{
+      "blockClass": "busqueda"
+    }
   },
 
     

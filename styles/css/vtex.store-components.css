@@ -1,5 +1,35 @@
 .logoImage{
-    margin-top: 0.75rem;
+    margin-top: 0.5rem;
+    margin-left: 0;
+    padding-left: 0;
 }
 
+.logoContainer{
+    margin-left: 0;
+    padding-left: 0;
+}
 
+.searchBarContainer{
+    width: 80%; 
+}
+
+.imageElement--imgx2{
+    border-radius: 5%;
+    margin: 5px;
+}
+
+.imageElement--imgx1{
+    border-radius: 5%;
+    margin: 5px;
+}
+.vtex-button{
+    background-color: #00b7cd;
+
+}
+
+.imageElement--tuerquitas{
+    width: 140px;
+    height: 188px;
+    margin: 5px 15px;
+
+}

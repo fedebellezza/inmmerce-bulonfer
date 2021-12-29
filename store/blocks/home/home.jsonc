@@ -1,17 +1,35 @@
 {
   "store.home": { 
+    "props":{
+      "fullWidth": false
+    },
     "blocks": [
       "list-context.image-list#bannerPrincial",
       "flex-layout.row#deals",
+      "flex-layout.row#tituloOfertas",
+      "flex-layout.row#bannersOfertas",
       "flex-layout.row#TituloPrincipal",
       "flex-layout.row#shelfPrincipal",
-      "rich-text"
+      "flex-layout.row#categorias",
+      "list-context.image-list#tuerquitas"
     ]
+  },
+  "flex-layout.row#tituloOfertas":{
+    "children":["rich-text#tituloOfertas"]
+  },
+    "rich-text#tituloOfertas": {
+      "props": {
+      "text": "## Ofertas Imperdibles",
+      "blockClass": "tituloOfertas",
+      /*"textAlignment": "CENTER",
+      "textPosition": "CENTER",*/
+      "font": "t-heading-5"
+      }
   },
  
   "flex-layout.row#TituloPrincipal":{
     "children":["rich-text#TituloPrincipal"]
-},
+  },
       "rich-text#TituloPrincipal": {
           "props": {
           "text": "## Super Ofertas",
@@ -21,12 +39,20 @@
           "font": "t-heading-1"
           }
       },
-  "rich-text": { 
+      
+  "flex-layout.row#categorias":{
+    "children":[
+      "rich-text#categorias"
+    ]
+  },
+  "rich-text#categorias": { 
     "props": { 
-      "text": "VTEX Store Framework",
+      "text": "Categorias Destacadas",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "font": "t-heading-2",
+      "fullWidth": false,
+      "blockClass":"categorias"
     }
   }
 }

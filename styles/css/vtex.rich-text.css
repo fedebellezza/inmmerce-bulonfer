@@ -5,3 +5,16 @@
     color: white;
     
 }
+
+.container--categorias{
+    border-top:2px solid #00b7cd;
+    height: 50px;
+    font-size: 30px;
+    color: #00b7cd;
+    margin: 25px;
+}
+
+.headingLevel2--tituloOfertas
+{
+    font-size: 30px;
+}

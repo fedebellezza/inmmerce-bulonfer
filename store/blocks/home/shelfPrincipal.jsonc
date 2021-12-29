@@ -9,7 +9,7 @@
           "children":["list-context.product-list#VitrinaPrincipal"]
       },
             "list-context.product-list#VitrinaPrincipal": {
-                "blocks": ["product-summary.shelf"],
+                "blocks": ["product-summary.shelf#VitrinaPrincipal"],
                 "children": ["slider-layout#VitrinaPrincipal"],
                 "props": {
                 "orderBy": "OrderByTopSaleDESC"
@@ -29,7 +29,7 @@
             },
             
 
-            "product-summary.shelf": {
+            "product-summary.shelf#VitrinaPrincipal": {
               "children": [
                 "product-summary-image",
                 "product-summary-add-to-list-button",
@@ -40,6 +40,13 @@
                 //"product-identifier.summary",
                 "add-to-cart-button"
               ]
+            },
+            "add-to-cart-button":{
+              "props":{
+                "blockClass":"boton-agregar-al-carrito",
+                "onClickBehavior": "go-to-product-page ",
+                "maxWidth": "80%"
+              }
             }
     
 }
