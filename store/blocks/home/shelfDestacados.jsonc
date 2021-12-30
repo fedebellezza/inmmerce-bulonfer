@@ -1,0 +1,52 @@
+{
+ 
+    "flex-layout.row#shelfDestacados": {
+      "children": [ 
+          "flex-layout.row#VitrinaDestacados"]
+    },
+    
+    "flex-layout.row#VitrinaDestacados":{
+        "children":["list-context.product-list#VitrinaDestacados"]
+    },
+          "list-context.product-list#VitrinaDestacados": {
+              "blocks": ["product-summary.shelf#VitrinaDestacados"],
+              "children": ["slider-layout#VitrinaDestacados"],
+              "props": {
+              "orderBy": "OrderByTopSaleDESC"
+              }
+          },
+          "slider-layout#VitrinaDestacados": {
+              "props": {
+              "itemsPerPage": {
+                  "desktop": 5,
+                  "tablet": 3,
+                  "phone": 1
+              },
+              "infinite": true,
+              "fullWidth": false,
+              "blockClass": "shelf"
+              }
+          },
+          
+
+          "product-summary.shelf#VitrinaDestacados": {
+            "children": [
+              "product-summary-image",
+              "product-summary-add-to-list-button",
+              "product-summary-name",
+             // "product-rating-inline",
+              "product-summary-space",
+              "product-summary-price",
+              //"product-identifier.summary",
+              "add-to-cart-button"
+            ]
+          },
+          "add-to-cart-button":{
+            "props":{
+              "blockClass":"boton-agregar-al-carrito",
+              "onClickBehavior": "go-to-product-page ",
+              "maxWidth": "80%"
+            }
+          }
+  
+}

@@ -11,7 +11,9 @@
       "flex-layout.row#TituloPrincipal",
       "flex-layout.row#shelfPrincipal",
       "flex-layout.row#categorias",
-      "list-context.image-list#tuerquitas"
+      "flex-layout.row#tuerquitas",
+      "flex-layout.row#TituloDestacados",
+      "flex-layout.row#shelfDestacados"
     ]
   },
   "flex-layout.row#tituloOfertas":{
@@ -21,8 +23,8 @@
       "props": {
       "text": "## Ofertas Imperdibles",
       "blockClass": "tituloOfertas",
-      /*"textAlignment": "CENTER",
-      "textPosition": "CENTER",*/
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
       "font": "t-heading-5"
       }
   },
@@ -53,6 +55,22 @@
       "font": "t-heading-2",
       "fullWidth": false,
       "blockClass":"categorias"
+    }
+  },
+
+  "flex-layout.row#TituloDestacados":{
+    "children":[
+      "rich-text#TituloDestacados"
+    ]
+  },
+  "rich-text#TituloDestacados": { 
+    "props": { 
+      "text": "Productos Destacados",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "fullWidth": false,
+      "blockClass":"destacados"
     }
   }
 }

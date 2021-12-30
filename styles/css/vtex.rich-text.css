@@ -14,7 +14,55 @@
     margin: 25px;
 }
 
-.headingLevel2--tituloOfertas
+.container--tituloOfertas
 {
+    border-top:2px solid #00b7cd;
+    height: 50px;
     font-size: 30px;
+    color: #00b7cd;
+    margin: 25px;
+}
+
+.container--destacados{
+    border-top:2px solid #00b7cd;
+    height: 50px;
+    font-size: 30px;
+    color: #00b7cd;
+    margin: 25px;
+}
+
+.container--TitFoot{
+    height: 20px;
+    padding: 0%;
+}
+.wrapper--TitFoot {
+    margin-bottom: 0%;
+    padding: 0%;
+}
+.wrapper--TitFoot .headingLevel2--TitFoot{
+    font-size: 18px;
+    margin-bottom: 0%;
+}
+.headingLevel2--NroTel{
+    font-size: 16px;
+    margin-bottom: 0%;
+}
+.container--NroTel{
+    height: 18px;
+    padding: 0%;
+}
+.container--Horarios{
+    height: 18px;
+    padding: 0%;
+}
+
+.container--mail{
+    height: 18px;
+    padding: 0%;
+    text-decoration: none;
+}
+.link--mail{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;  
 }

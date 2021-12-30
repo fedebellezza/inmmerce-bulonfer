@@ -1,4 +1,9 @@
-{"list-context.image-list#tuerquitas": {
+{"flex-layout.row#tuerquitas":{
+  "children":[
+    "list-context.image-list#tuerquitas"
+  ]
+},
+  "list-context.image-list#tuerquitas": {
     "children": ["slider-layout#tuerquitas-images"],
     "props": {
         "fullWidth": false,
@@ -9,27 +14,45 @@
       "images": [
         {
             "image": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/40a998f7-e389-4d5a-a8f0-6a2b2e057399___6eed281406f0939a3db14f6f53ea29b8.png",
-            "mobileImage": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/40a998f7-e389-4d5a-a8f0-6a2b2e057399___6eed281406f0939a3db14f6f53ea29b8.png"
+            "mobileImage": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/40a998f7-e389-4d5a-a8f0-6a2b2e057399___6eed281406f0939a3db14f6f53ea29b8.png",
+            "link":{
+              "url":"https://www.bulonfer.com"
+            }
         },
         {
             "image": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/d9380010-4807-4ffe-9791-e31fe063bc89___a0ade159c8c74cfe2cd79666bbad1228.png",
-            "mobileImage": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/d9380010-4807-4ffe-9791-e31fe063bc89___a0ade159c8c74cfe2cd79666bbad1228.png"
+            "mobileImage": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/d9380010-4807-4ffe-9791-e31fe063bc89___a0ade159c8c74cfe2cd79666bbad1228.png",
+            "link":{
+              "url":"https://www.bulonfer.com"
+            }
         },
         {
             "image": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/7bbd5a19-ce41-4f85-a622-6d4adad3197d___776d679923130b0a8e9ff7233dcf4ebd.png",
-            "mobileImage": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/7bbd5a19-ce41-4f85-a622-6d4adad3197d___776d679923130b0a8e9ff7233dcf4ebd.png"
+            "mobileImage": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/7bbd5a19-ce41-4f85-a622-6d4adad3197d___776d679923130b0a8e9ff7233dcf4ebd.png",
+            "link":{
+              "url":"https://www.bulonfer.com"
+            }
         },
         {
             "image": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/ec12de2b-7680-4796-95e7-15037878c577___34bed05e862a1a9904fa8cc55eb4e41a.png",
-            "mobileImage": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/ec12de2b-7680-4796-95e7-15037878c577___34bed05e862a1a9904fa8cc55eb4e41a.pngg"
+            "mobileImage": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/ec12de2b-7680-4796-95e7-15037878c577___34bed05e862a1a9904fa8cc55eb4e41a.pngg",
+            "link":{
+              "url":"https://www.bulonfer.com"
+            }
         },
         {
             "image": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/21338788-3db8-4cf7-b2a9-59acf1127b27___b12af85de03084236cc3fa463787ef14.png",
-            "mobileImage": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/21338788-3db8-4cf7-b2a9-59acf1127b27___b12af85de03084236cc3fa463787ef14.png"
+            "mobileImage": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/21338788-3db8-4cf7-b2a9-59acf1127b27___b12af85de03084236cc3fa463787ef14.png",
+            "link":{
+              "url":"https://www.bulonfer.com"
+            }
         },
         {
             "image": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/92cc734a-cbba-4ab1-bb0e-3356399b29d9___2407005a329b7cf128faf3d6e9c3beb3.png",
-            "mobileImage": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/92cc734a-cbba-4ab1-bb0e-3356399b29d9___2407005a329b7cf128faf3d6e9c3beb3.png"
+            "mobileImage": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/92cc734a-cbba-4ab1-bb0e-3356399b29d9___2407005a329b7cf128faf3d6e9c3beb3.png",
+            "link":{
+              "url":"https://www.bulonfer.com"
+            }
         }
       ]
     }

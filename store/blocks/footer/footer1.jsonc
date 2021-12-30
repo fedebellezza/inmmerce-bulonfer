@@ -1,0 +1,141 @@
+{
+    "flex-layout.row#footer1":{
+        "props":{
+            "blockClass": "footer1"
+        },
+        "children":[
+            "flex-layout.col#logo",
+            "flex-layout.col#ATCliente",
+            "flex-layout.col#WS",
+            "flex-layout.col#Contactos"
+        ]
+    },
+    "flex-layout.col#logo":{
+        "children":["logo#desktopFooter"]      
+    },
+
+        "logo#desktopFooter":{
+            "props": {
+                "blockClass": "logoFoot",
+            "horizontalAlign": "left",
+            "verticalAlign": "left",
+            "title": "Logo Bulonfer",
+            "href": "/",
+            "url": "https://bulonfer.vtexassets.com/assets/vtex/assets-builder/bulonfer.lund-theme-1-0-0/1.33.0/bulonferlogonuevo___44819ebb2332c304925117c15d169824.png",
+            "width": "178"
+            }
+        },
+
+        "flex-layout.col#ATCliente":{
+            "children":[
+                "rich-text#ATCliente",
+                "rich-text#NroTel",
+                "rich-text#Horarios"
+            ]
+        },
+            "rich-text#ATCliente": {
+                "props": {
+                "text": "ATENCIÓN AL CLIENTE",
+                "blockClass": "TitFoot",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "font": "t-heading-5"
+                }
+            },
+            "rich-text#NroTel": {
+                "props": {
+                "text": "## +54 249 440 2000",
+                "blockClass": "NroTel",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER"
+                }
+            },
+            "rich-text#Horarios": {
+                "props": {
+                "text": "Lu a Vi 10:00 a 18:00hs",
+                "blockClass": "Horarios",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER"
+                }
+            },
+        
+        "flex-layout.col#WS":{
+            "children":[
+                "rich-text#WS",
+                "rich-text#NroCel",
+                "rich-text#HorariosCel"
+            ]
+        },
+            "rich-text#WS": {
+                "props": {
+                "text": "WHATSAPP",
+                "blockClass": "TitFoot",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "font": "t-heading-5"
+                }
+            },
+            "rich-text#NroCel": {
+                "props": {
+                "text": "## +54 249 440 2000",
+                "blockClass": "NroTel",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER"
+                }
+            },
+            "rich-text#HorariosCel": {
+                "props": {
+                "text": "Lu a Vi 10:00 a 18:00hs",
+                "blockClass": "Horarios",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER"
+                }
+            },
+        "flex-layout.col#Contactos":{
+            "children":[
+                "rich-text#Contactos",
+                "rich-text#Mail",
+                "flex-layout.row#social-networks"
+            ]
+        },
+            "rich-text#Contactos": {
+                "props": {
+                "text": "OTROS CANALES",
+                "blockClass": "TitFoot",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "font": "t-heading-5"
+                }
+            },
+            "rich-text#Mail": {
+                "props": {
+                    "text": "tienda@buonfer.com.ar",
+                    "blockClass": "mail",
+                    "textAlignment": "CENTER",
+                    "textPosition": "CENTER"
+                    }
+            },
+
+            "flex-layout.row#social-networks":{
+                "children":[ "social-networks"],
+                "props": {
+                    "blockClass": "redes",
+                    "textAlignment": "CENTER",
+                    "textPosition": "CENTER"
+                    }
+            },
+            "social-networks": {
+                "props": {
+                    "blockClass":"redes",
+                    "socialNetworks": [
+                        { "url": "https://facebook.com/foo", "name": "Facebook" },
+                        { "url": "https://instagram.com/foo", "name": "Instagram" },
+                        { "url": "https://youtube.com/foo", "name": "youtube" },
+                        { "url": "https://linkedin.com/foo", "name": "linkedin" },
+                        { "url": "https://twitter.com/foo", "name": "Twitter" }
+                    ]
+                }
+              }
+
+}
+     
