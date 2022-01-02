@@ -5,6 +5,7 @@
         },
         "children":[
             "flex-layout.col#logo",
+            "flex-layout.col#Domicilio",
             "flex-layout.col#ATCliente",
             "flex-layout.col#WS",
             "flex-layout.col#Contactos"
@@ -25,6 +26,41 @@
             "width": "178"
             }
         },
+
+        
+        "flex-layout.col#Domicilio":{
+            "children":[
+                "rich-text#DomTit",
+                "rich-text#Tandil",
+                "rich-text#Caba"
+            ]
+        },
+            "rich-text#DomTit": {
+                "props": {
+                "text": "PUNTOS DE RETIRO",
+                "blockClass": "TitFoot",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "font": "t-heading-5"
+                }
+            },
+            "rich-text#Tandil": {
+                "props": {
+                "text": "## Ruta N 226 - Km 178 - Tandil ",
+                "blockClass": "NroTel",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER"
+                }
+            },
+            "rich-text#Caba": {
+                "props": {
+                "text": " Av. Forest 610 - CABA",
+                "blockClass": "Caba",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER"
+                }
+            },
+
 
         "flex-layout.col#ATCliente":{
             "children":[
@@ -121,7 +157,8 @@
                 "props": {
                     "blockClass": "redes",
                     "textAlignment": "CENTER",
-                    "textPosition": "CENTER"
+                    "textPosition": "CENTER",
+                    "showInColor":"true"
                     }
             },
             "social-networks": {

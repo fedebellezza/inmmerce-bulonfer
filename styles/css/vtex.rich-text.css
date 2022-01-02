@@ -34,35 +34,52 @@
 .container--TitFoot{
     height: 20px;
     padding: 0%;
+    
 }
 .wrapper--TitFoot {
     margin-bottom: 0%;
     padding: 0%;
+    color: #1c4865;
 }
 .wrapper--TitFoot .headingLevel2--TitFoot{
     font-size: 18px;
     margin-bottom: 0%;
+    color: #1c4865;
 }
 .headingLevel2--NroTel{
     font-size: 16px;
     margin-bottom: 0%;
+    color: #1c4865;
 }
 .container--NroTel{
     height: 18px;
     padding: 0%;
+    color: #1c4865;
 }
 .container--Horarios{
     height: 18px;
     padding: 0%;
+    color: #1c4865;
+}
+.container--Caba{
+    height: 18px;
+    padding: 0%;
+    color: #1c4865;
+    font-weight: bold;
 }
 
 .container--mail{
     height: 18px;
     padding: 0%;
     text-decoration: none;
+    color: #1c4865;
 }
 .link--mail{
     text-decoration: none;
-    color: black;
+    color: #1c4865;
     font-weight: bold;  
+}
+
+.wrapper--foot3Col1{
+    width: 60%;
 }

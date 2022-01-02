@@ -1,0 +1,84 @@
+{
+    "flex-layout.row#footer3":{
+        "children":[
+            "flex-layout.col#descargo",
+            "flex-layout.col#newsletter",
+            "flex-layout.col#afip"
+        ]
+    },
+    "flex-layout.col#descargo":{
+        "children":[
+            "rich-text#Descargo"
+
+        ],
+        "props":{
+            "blockClass":"foot3Col1"
+        }
+    },
+    "rich-text#Descargo":{
+        "props": {
+            "text": "Las fotos son a modo illustrativo, La venta de cualquira de los productos publicados esta sujeta a la verificacion de stock. Los precios online y los planes de financiacion para los productos  publicados en este sitio.",
+            "blockClass": "foot3Col1",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "t-heading-5"
+            }
+    },
+    
+    "flex-layout.col#newsletter":{
+        "children": ["newsletter-form"],
+        "props":{
+            "blockClass":"foot3Col2"
+        }
+    },
+  
+    "newsletter-form": {
+        "children": [
+            "newsletter-input-email",
+            "newsletter-input-name",
+            "newsletter-submit"
+        ],
+        "props":{
+            "blockClass":"foot3Col2"
+        }
+    },
+
+    "flex-layout.col#afip":{
+        "children":[
+            "list-context.image-list#afip"
+          ],
+          "props":{
+              "blockClass":"foot3Col3"
+          }
+        },
+          "list-context.image-list#afip": {
+            "children": ["slider-layout#afip-images"],
+            "props": {
+                "fullWidth": false,
+              "height": 188,
+              "width":150,
+              "blockClass":"foot3Col3",
+              
+              "images": [
+                    {
+                        "image": "https://bulonfer.vtexassets.com/assets/vtex/assets-builder/bulonfer.lund-theme-1-0-0/1.33.0/afip___2be83ddc1e5c734a1947041202b99793.png",
+                        "mobileImage": "https://bulonfer.vtexassets.com/assets/vtex/assets-builder/bulonfer.lund-theme-1-0-0/1.33.0/afip___2be83ddc1e5c734a1947041202b99793.png",
+                        "link":{
+                        "url":"http://qr.afip.gob.ar/?qr=jSenfhXh2R4UtEVYmdP8TQ,,"
+                            }
+                    }
+                ]
+            }
+        },
+        "slider-layout#afip-images": {
+            "props": {
+              "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+              }
+              
+            }
+          }
+  
+}

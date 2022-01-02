@@ -5,8 +5,8 @@
   "footer-layout.desktop": { 
     "children": [
       "flex-layout.row#footer1",
-      "flex-layout.row#footer2"/*,
-      "flex-layout.row#footer3"*/
+      "flex-layout.row#footer2",
+      "flex-layout.row#footer3"
     ]
   },
   "footer-layout.mobile": { 
