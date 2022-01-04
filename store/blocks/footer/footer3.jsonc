@@ -12,7 +12,8 @@
 
         ],
         "props":{
-            "blockClass":"foot3Col1"
+            "blockClass":"foot3Col1",
+            "width":"65%"
         }
     },
     "rich-text#Descargo":{
@@ -26,10 +27,20 @@
     },
     
     "flex-layout.col#newsletter":{
-        "children": ["newsletter-form"],
+        "children": ["rich-text#Newsletter","newsletter-form"],
         "props":{
-            "blockClass":"foot3Col2"
+            "blockClass":"foot3Col2",
+            "width":"20%"
         }
+    },
+    "rich-text#Newsletter":{
+        "props": {
+            "text": "Suscribite a nuestro newsletter!!",
+            "blockClass": "foot3Col1",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "t-heading-5"
+            }
     },
   
     "newsletter-form": {
@@ -48,7 +59,8 @@
             "list-context.image-list#afip"
           ],
           "props":{
-              "blockClass":"foot3Col3"
+              "blockClass":"foot3Col3",
+              "width":"10%"
           }
         },
           "list-context.image-list#afip": {

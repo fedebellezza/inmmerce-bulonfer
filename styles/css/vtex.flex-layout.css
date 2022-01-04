@@ -45,15 +45,23 @@
     height: 30px;
     font-size: 18px;
 }
+.flexRow--footer3{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #cccccc;
+    font-size: 18px;
+}
 
 .flexCol--foot3Col1{
-    width: 60%;
-}
-.flexCol--foot3Col2{
-    width: 30%;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
 }
 .flexCol--foot3Col3{
-    width: 10%;
+    text-align: center;
+    align-items: center;
 }
+
 
 
