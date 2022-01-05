@@ -1,6 +1,6 @@
 {
-    "store.custom#departamentos": {
-      "path": "/departamentos"
+    "store.custom#landing": {
+      "path": "/landing-departamentos"
     }
    
   }
