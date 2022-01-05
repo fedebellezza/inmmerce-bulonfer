@@ -1,73 +1,66 @@
 {
-    "store.custom#landing":{
-        "blocks":[
-            "flex-layout.row#bannerDepartamento",
-            "flex-layout.row#productosRecomendados"/*,
+  "store.custom#landing-especial": {
+    "blocks": [
+      "flex-layout.row#bannerDepartamento",
+      "flex-layout.row#productosRecomendados" /*,
             "flex-layout.row#categoria1",
             "flex-layout.row#categoria2",
             "flex-layout.row#categoria3"*/
-        ]
-    },
+    ]
+  },
 
-    "flex-layout.row#bannerDepartamento":{
-        "children":["list-context.image-list#bannerDepartamento"]
-    },
-        "list-context.image-list#bannerDepartamento":{
-            "children": ["slider-layout#bannerDepartamento"],
-            "props": {
-            "height": 400,
-            "images": [
-                {
-                "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-                "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-                }
-            ]
-            }
-        },
-            "slider-layout#bannerDepartamento": {
-                "props": {
-                "itemsPerPage": {
-                    "desktop": 1,
-                    "tablet": 1,
-                    "phone": 1
-                },
-                "infinite": false
-                }
-            },
-    
-    "flex-layout.row#productosRecomendados":{
-        "children":[
-            "flex-layout.row#titulo",
-            "flex-layout.row#recomendados"
-        ]
-    },
-        "flex-layout.row#titulo":{
-            "children":[
-                "rich-text#titulo"
-            ]
-        },
-            "rich-text#titulo": {
-                "props": {
-                "text": "## Summer",
-                "blockClass": "titulo"
-                }
-            },
-
-    "flex-layout.row#recomendados":{
-        "children":[
-            "slider-layout#recomendados"
-        ]
-    },
-    "slider-layout#recomendados": {
-        "props": {
-          "itemsPerPage": {
-            "desktop": 5,
-            "tablet": 3,
-            "phone": 1
-          },
-          "infinite": true,
-          "fullWidth": false,
-          "blockClass": "shelf"
+  "flex-layout.row#bannerDepartamento": {
+    "children": ["list-context.image-list#bannerDepartamento"]
+  },
+  "list-context.image-list#bannerDepartamento": {
+    "children": ["slider-layout#bannerDepartamento"],
+    "props": {
+      "height": 400,
+      "images": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         }
-      }
+      ]
+    }
+  },
+  "slider-layout#bannerDepartamento": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": false
+    }
+  },
+
+  "flex-layout.row#productosRecomendados": {
+    "children": ["flex-layout.row#titulo", "flex-layout.row#recomendados"]
+  },
+  "flex-layout.row#titulo": {
+    "children": ["rich-text#titulo"]
+  },
+  "rich-text#titulo": {
+    "props": {
+      "text": "## Summer",
+      "blockClass": "titulo"
+    }
+  },
+
+  "flex-layout.row#recomendados": {
+    "children": ["slider-layout#recomendados"]
+  },
+  "slider-layout#recomendados": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  }
 }
