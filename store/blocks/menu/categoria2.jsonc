@@ -1,0 +1,93 @@
+{
+    "menu-item#Categoria2": {
+        "props": {
+          "id": "menu-item-Categoria2",
+          "blockClass": "categoria" ,
+          "type": "custom",
+          "iconId": null,
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/perforacion",
+            "noFollow": true,
+            "tagTitle": "Perforacion",
+            "text": "Perforacion"
+          }
+        }
+      },
+      "menu-item#Categoria2-1": {
+        "props": {
+          "id": "menu-item-atornilladores",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/atornilladores",
+            "noFollow": true,
+            "tagTitle": "Atornilladores",
+            "text": "Atornilladores"
+            }
+        }
+      },
+      "menu-item#Categoria2-2": {
+        "props": {
+          "id": "menu-item-rotomartillo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/rotomartillo",
+            "noFollow": true,
+            "tagTitle": "Rotomartillo",
+            "text": "Rotomartillo"
+            }
+        }
+      },
+      "menu-item#Categoria2-3": {
+        "props": {
+          "id": "menu-item-Taladros",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/taladros",
+            "noFollow": true,
+            "tagTitle": "Taladros",
+            "text": "Taladros"
+            }
+        }
+      },
+      "menu-item#Categoria2-4": {
+        "props": {
+          "id": "menu-item-Taladros-inalambricos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/taladros-inalambricos",
+            "noFollow": true,
+            "tagTitle": "Taladros Inalambricos",
+            "text": "Taladros Inalambricos"
+            }
+        }
+      },
+      "menu-item#Categoria2-5": {
+        "props": {
+          "id": "menu-item-Accesorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/accesorios-perforacion",
+            "noFollow": true,
+            "tagTitle": "Acc y Repuestos",
+            "text": "Acc y Repuestos"
+            }
+        }
+      }
+}

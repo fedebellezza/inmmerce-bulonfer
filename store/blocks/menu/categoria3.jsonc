@@ -1,0 +1,93 @@
+{
+    "menu-item#Categoria3": {
+        "props": {
+          "id": "menu-item-Categoria3",
+          "blockClass": "categoria" ,
+          "type": "custom",
+          "iconId": null,
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/lijados-desgaste-y-pulido",
+            "noFollow": true,
+            "tagTitle": "Lijados, Desgaste y Pulido",
+            "text": "Lijados, Desgaste y Pulido"
+          }
+        }
+      },
+      "menu-item#Categoria3-1": {
+        "props": {
+          "id": "menu-item-cepillo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cepillo",
+            "noFollow": true,
+            "tagTitle": "Cepillo",
+            "text": "Cepillo"
+            }
+        }
+      },
+      "menu-item#Categoria3-2": {
+        "props": {
+          "id": "menu-item-lijadoras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/lijadoras",
+            "noFollow": true,
+            "tagTitle": "Lijadoras",
+            "text": "Lijadoras"
+            }
+        }
+      },
+      "menu-item#Categoria3-3": {
+        "props": {
+          "id": "menu-item-Minitornos-y-accesorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Minitornos-y-Accesorios",
+            "noFollow": true,
+            "tagTitle": "Minitornos y accesorios",
+            "text": "Minitornos y accesorios"
+            }
+        }
+      },
+      "menu-item#Categoria3-4": {
+        "props": {
+          "id": "menu-item-Taladros-pulidoras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pulidoras",
+            "noFollow": true,
+            "tagTitle": "Pulidoras",
+            "text": "Pulidoras"
+            }
+        }
+      },
+      "menu-item#Categoria3-5": {
+        "props": {
+          "id": "menu-item-Accesorios-lijado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/accesorios-lijado",
+            "noFollow": true,
+            "tagTitle": "Acc y Repuestos",
+            "text": "Acc y Repuestos"
+            }
+        }
+      }
+}

@@ -2,9 +2,12 @@
   "store.custom#landing-especial": {
     "blocks": [
       "flex-layout.row#bannerDepartamento",
-      "flex-layout.row#productosRecomendados" /*,
-            "flex-layout.row#categoria1",
-            "flex-layout.row#categoria2",
+      "flex-layout.row#categoria1",
+      "flex-layout.row#productosTitRecomendados",
+      "flex-layout.row#productosRecomendados" ,
+      "flex-layout.row#categoriaTitRecomendados",
+      "flex-layout.row#categoriaRecomendados"/*,
+            "flex-layout.row#categoria2", //repito seccion segun necesite para mas categorias
             "flex-layout.row#categoria3"*/
     ]
   },
@@ -18,12 +21,14 @@
       "height": 400,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/4f8ab2f9-2fb7-4e8d-86e5-b252f29daba0___f250d98761fabaee4509640571049c87.jpg",
+          "mobileImage": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/4f8ab2f9-2fb7-4e8d-86e5-b252f29daba0___f250d98761fabaee4509640571049c87.jpg"
         }
       ]
     }
   },
+  
+
   "slider-layout#bannerDepartamento": {
     "props": {
       "itemsPerPage": {
@@ -35,32 +40,197 @@
     }
   },
 
-  "flex-layout.row#productosRecomendados": {
-    "children": ["flex-layout.row#titulo", "flex-layout.row#recomendados"]
+  "flex-layout.row#categoria1":{
+    "children": [
+      "flex-layout.col#categoria1-1",
+      "flex-layout.col#categoria1-2",
+      "flex-layout.col#categoria1-3"
+    ],
+    "props":{
+      "blockClass":"categoriaX3"
+    }
   },
-  "flex-layout.row#titulo": {
+    "flex-layout.col#categoria1-1":{
+      "children": [
+        "image#img1"
+        ]      
+      },
+      
+          "image#img1": {
+            "props": {
+              "blockClass":"imgx2",
+              "src": "https://arcencohogareasy.vtexassets.com/assets/vtex.file-manager-graphql/images/1b816ae2-2c09-4a36-baa1-8ba8faa14e54___9dcfdf2504b1bfb378ac53bf9015d22a.jpg",
+              "maxHeight": "240px",
+              "link": {
+                "newTab": false,
+                "url":"www.bulonfer.com"
+              }
+            }
+          },
+  "flex-layout.col#categoria1-2":{
+    "children": [
+      "image#img2"
+      
+      ]      
+    },
+        "image#img2": {
+          "props": {
+            "blockClass":"imgx2",
+            "src": "https://arcencohogareasy.vtexassets.com/assets/vtex.file-manager-graphql/images/1b816ae2-2c09-4a36-baa1-8ba8faa14e54___9dcfdf2504b1bfb378ac53bf9015d22a.jpg",
+            "maxHeight": "240px",
+            "link": {
+              "newTab": false,
+              "url":"www.bulonfer.com"
+            }
+          }
+        },
+  "flex-layout.col#categoria1-3":{
+    "children": [
+      "image#img3"
+      
+      ]      
+    },
+        "image#img3": {
+          "props": {
+            "blockClass":"imgx2",
+            "src": "https://arcencohogareasy.vtexassets.com/assets/vtex.file-manager-graphql/images/1b816ae2-2c09-4a36-baa1-8ba8faa14e54___9dcfdf2504b1bfb378ac53bf9015d22a.jpg",
+            "maxHeight": "240px",
+            "link": {
+              "newTab": false,
+              "url":"www.bulonfer.com"
+            }
+          }
+        },
+
+
+  "flex-layout.row#productosTitRecomendados": {
     "children": ["rich-text#titulo"]
   },
+
   "rich-text#titulo": {
     "props": {
-      "text": "## Summer",
-      "blockClass": "titulo"
+      "text": "## Recomendados",
+      "blockClass": "titulo",
+      "font": "t-heading-1"
+
     }
   },
 
-  "flex-layout.row#recomendados": {
-    "children": ["slider-layout#recomendados"]
+  "flex-layout.row#productosRecomendados": {
+    "children":["list-context.product-list#productosRecomendados"]
+    },
+          "list-context.product-list#productosRecomendados": {
+              "blocks": ["product-summary.shelf#productosRecomendados"],
+              "children": ["slider-layout#productosRecomendados"],
+              "props": {
+              "orderBy": "OrderByTopSaleDESC"
+              }
+          },
+          "slider-layout#productosRecomendados": {
+              "props": {
+              "itemsPerPage": {
+                  "desktop": 5,
+                  "tablet": 3,
+                  "phone": 1
+              },
+              "infinite": true,
+              "fullWidth": false,
+              "blockClass": "shelf"
+              }
+          },
+          "product-summary.shelf#productosRecomendados": {
+            "children": [
+              "product-summary-image",
+              "product-summary-add-to-list-button",
+              "product-summary-name",
+             // "product-rating-inline",
+              "product-summary-space",
+              "product-summary-price",
+              //"product-identifier.summary",
+              "add-to-cart-button"
+            ]
+          },
+          "add-to-cart-button":{
+            "props":{
+              "blockClass":"boton-agregar-al-carrito",
+              "onClickBehavior": "go-to-product-page ",
+              "maxWidth": "80%"
+            }
+          },
+  
+  "flex-layout.row#categoriaTitRecomendados": {
+    "children": ["rich-text#tituloRecomendados"]
   },
-  "slider-layout#recomendados": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
-        "phone": 1
+
+      "rich-text#tituloRecomendados": {
+        "props": {
+          "text": "## Categoria Relacionadas",
+          "blockClass": "titulo",
+          "font": "t-heading-1"
+
+        }
       },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf"
+
+  "flex-layout.row#categoriaRecomendados":{
+    "children": [
+      "flex-layout.col#categoriaRecomendados1-1",
+      "flex-layout.col#categoriaRecomendados1-2",
+      "flex-layout.col#categoriaRecomendados1-3"
+    ],
+    "props":{
+      "blockClass":"categoriaX3"
     }
-  }
+  },
+    "flex-layout.col#categoriaRecomendados1-1":{
+      "children": [
+        "image#img1Recomendados"
+        ]      
+      },
+      
+          "image#img1Recomendados": {
+            "props": {
+              "blockClass":"imgx2",
+              "src": "https://arcencohogareasy.vtexassets.com/assets/vtex.file-manager-graphql/images/1b816ae2-2c09-4a36-baa1-8ba8faa14e54___9dcfdf2504b1bfb378ac53bf9015d22a.jpg",
+              "maxHeight": "240px",
+              "link": {
+                "newTab": false,
+                "url":"www.bulonfer.com"
+              }
+            }
+          },
+  "flex-layout.col#categoriaRecomendados1-2":{
+    "children": [
+      "image#img2"
+      
+      ]      
+    },
+        "image#img2Recomendados": {
+          "props": {
+            "blockClass":"imgx2",
+            "src": "https://arcencohogareasy.vtexassets.com/assets/vtex.file-manager-graphql/images/1b816ae2-2c09-4a36-baa1-8ba8faa14e54___9dcfdf2504b1bfb378ac53bf9015d22a.jpg",
+            "maxHeight": "240px",
+            "link": {
+              "newTab": false,
+              "url":"www.bulonfer.com"
+            }
+          }
+        },
+  "flex-layout.col#categoriaRecomendados1-3":{
+    "children": [
+      "image#img3"
+      
+      ]      
+    },
+        "image#img3Recomendados": {
+          "props": {
+            "blockClass":"imgx2",
+            "src": "https://arcencohogareasy.vtexassets.com/assets/vtex.file-manager-graphql/images/1b816ae2-2c09-4a36-baa1-8ba8faa14e54___9dcfdf2504b1bfb378ac53bf9015d22a.jpg",
+            "maxHeight": "240px",
+            "link": {
+              "newTab": false,
+              "url":"www.bulonfer.com"
+            }
+          }
+        }
+  
 }

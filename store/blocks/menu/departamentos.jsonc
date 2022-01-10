@@ -1,0 +1,124 @@
+{
+"flex-layout.row#MenuFede":{
+    "children": [
+        "vtex.menu@2.x:menu#menu"
+    ],
+    "props":{
+        "blockClass": "rowMenu",
+        "fullwidth": false
+    }
+},
+
+    "vtex.menu@2.x:menu#menu":{
+        "children":[
+            "menu-item#menu1",
+            "menu-item#menu2",
+            "menu-item#menu3",
+            "menu-item#menu4",
+            "menu-item#menu5",
+            "menu-item#menu6"
+        ],
+        "props":{
+            "blockClass":"menuFede"
+        }
+    },
+        "menu-item#menu1": {
+            "props": {
+            "id": "menu1",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menufooter",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Herramientas Elctricas",
+                "text": "Herramientas Elctricas"
+            }
+            },
+            "blocks": [
+              "vtex.menu@2.x:submenu#departamento1"
+            ]
+        },
+        "menu-item#menu2": {
+            "props": {
+            "id": "menu2",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menufooter",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Herramientas de Mano",
+                "text": "Herramientas de Mano"
+            }
+            }
+        },
+        "menu-item#menu3": {
+            "props": {
+            "id": "menu3",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menufooter",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ferreteria",
+                "text": "Ferreteria"
+            }
+            }
+        },
+        "menu-item#menu4": {
+            "props": {
+            "id": "menu4",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menufooter",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Hogar y Jardin",
+                "text": "Hogar y Jardin"
+            }
+            }
+        },
+        "menu-item#menu5": {
+            "props": {
+            "id": "menu5",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menufooter",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Taller y Garage",
+                "text": "Taller y Garage"
+            }
+            }
+        },
+        "menu-item#menu6": {
+            "props": {
+            "id": "menu6",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menufooter",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Super Oertas",
+                "text": "Super Ofertas"
+            }
+            }
+        }
+}

@@ -1,0 +1,93 @@
+{
+    "menu-item#Categoria4": {
+        "props": {
+          "id": "menu-item-Soldadura",
+          "blockClass": "categoria" ,
+          "type": "custom",
+          "iconId": null,
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Soldadura",
+            "noFollow": true,
+            "tagTitle": "Soldadura",
+            "text": "Soldadura"
+          }
+        }
+      },
+      "menu-item#Categoria4-1": {
+        "props": {
+          "id": "menu-item-Cortadora-de-plasma",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Cortadora-de-plasma",
+            "noFollow": true,
+            "tagTitle": "Cortadora de plasma",
+            "text": "Cortadora de plasma"
+            }
+        }
+      },
+      "menu-item#Categoria4-2": {
+        "props": {
+          "id": "menu-item-Mascaras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Mascaras",
+            "noFollow": true,
+            "tagTitle": "Mascaras",
+            "text": "Mascaras"
+            }
+        }
+      },
+      "menu-item#Categoria4-3": {
+        "props": {
+          "id": "menu-item-Soldadoras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Soldadoras",
+            "noFollow": true,
+            "tagTitle": "Soldadoras",
+            "text": "Soldadoras"
+            }
+        }
+      },
+      "menu-item#Categoria4-4": {
+        "props": {
+          "id": "menu-item-electrodos-y-alambre",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/electrodos-y-alambre",
+            "noFollow": true,
+            "tagTitle": "Electrodos y Alambre",
+            "text": "Electrodos y Alambre"
+            }
+        }
+      },
+      "menu-item#Categoria4-5": {
+        "props": {
+          "id": "menu-item-Accesorios-soldadura",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/accesorios-soldadura",
+            "noFollow": true,
+            "tagTitle": "Acc y Repuestos",
+            "text": "Acc y Repuestos"
+            }
+        }
+      }
+}

@@ -63,5 +63,29 @@
     align-items: center;
 }
 
+.flexRow--categoriaX3{
+    text-align: center;
+    align-items: center;
+    padding: 5px 0px 5px 0; 
+}
+
+.flexRow--info-card{
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+    max-height: 400px;
+
+}
+
+/*---Menu Fede---*/
+.flexColChild--depCol{
+    margin-right: 10%;
+    padding-left: 0;
+    text-align: left;
+}
+
+/*---Menu Fede---*/
+
+
 
 

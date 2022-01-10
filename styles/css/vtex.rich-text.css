@@ -83,3 +83,18 @@
 .wrapper--foot3Col1{
     width: 100%;
 }
+
+.container--titulo
+{
+    border-top:2px solid #00b7cd;
+    height: 50px;
+    font-size: 22px;
+    color: #00b7cd;
+    margin: 25px;
+}
+
+.headingLevel2--titulo{
+    margin: 0;
+    padding: 0;
+}
+

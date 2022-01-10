@@ -1,0 +1,169 @@
+{
+    "menu-item#Categoria1": {
+        "props": {
+          "id": "menu-item-Categoria1",
+          "blockClass": "categoria" ,
+          "type": "custom",
+          "iconId": null,
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Corte",
+            "noFollow": true,
+            "tagTitle": "Corte",
+            "text": "Corte"
+          }
+        }
+      },
+      "menu-item#Categoria1-1": {
+        "props": {
+          "id": "menu-item-Amoladora",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Amoladora",
+            "noFollow": true,
+            "tagTitle": "Amoladora",
+            "text": "Amoladora"
+            }
+        }
+      },
+      "menu-item#Categoria1-2": {
+        "props": {
+          "id": "menu-item-Fresadoras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Fresadoras",
+            "noFollow": true,
+            "tagTitle": "Fresadoras",
+            "text": "Fresadoras"
+            }
+        }
+      },
+      "menu-item#Categoria1-3": {
+        "props": {
+          "id": "menu-item-Ingletadoras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Ingletadoras",
+            "noFollow": true,
+            "tagTitle": "Ingletadoras",
+            "text": "Ingletadoras"
+            }
+        }
+      },
+      "menu-item#Categoria1-4": {
+        "props": {
+          "id": "menu-item-Otras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/otras-sierras",
+            "noFollow": true,
+            "tagTitle": "Otras Sierras",
+            "text": "Otras Sierras"
+            }
+        }
+      },
+      "menu-item#Categoria1-5": {
+        "props": {
+          "id": "menu-item-Caladora",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/caladora",
+            "noFollow": true,
+            "tagTitle": "Sierras Caladora",
+            "text": "Sierras Caladora"
+            }
+        }
+      },
+      "menu-item#Categoria1-6": {
+        "props": {
+          "id": "menu-item-Circulas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/sierras-circular",
+            "noFollow": true,
+            "tagTitle": "Sierras Circular",
+            "text": "Sierras Circular"
+            }
+        }
+      },
+      "menu-item#Categoria1-7": {
+        "props": {
+          "id": "menu-item-Sierras-de-Mesa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/sierras-de-mesa",
+            "noFollow": true,
+            "tagTitle": "Sierras de Mesa",
+            "text": "Sierras de Mesa"
+            }
+        }
+      },
+      "menu-item#Categoria1-8": {
+        "props": {
+          "id": "menu-item-Sensitivas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/sierras-sensitiva",
+            "noFollow": true,
+            "tagTitle": "Sierras Sensitiva",
+            "text": "Sierras Sensitiva"
+            }
+        }
+      },
+      "menu-item#Categoria1-9": {
+        "props": {
+          "id": "menu-item-disco-y-hojas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/discos-y-yhojas",
+            "noFollow": true,
+            "tagTitle": "Discos y Hojas",
+            "text": "Discos y Hojas"
+            }
+        }
+      },
+      "menu-item#Categoria1-10": {
+        "props": {
+          "id": "menu-item-Accesorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/accesorios-corte",
+            "noFollow": true,
+            "tagTitle": "Acc y Repuestos",
+            "text": "Acc y Repuestos"
+            }
+        }
+      }
+      
+}
