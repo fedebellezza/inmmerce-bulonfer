@@ -1,7 +1,12 @@
 {
     "vtex.menu@2.x:submenu#departamento1": {
         "props": {
-          "width": "100%"
+          "width": "100%",
+          "fullWidth": true,
+          "textAlignment": "left",
+          "horizontalAlign": "left",
+          "textPosition": "left",
+          "paddingLeft":0
           
         },
         "children": [
@@ -10,9 +15,12 @@
       },
       "flex-layout.row#departamento1": {
         "props": {
-          "width": "auto",
+          //"width": "100%",
+          "fullWidth": true,
           "horizontalAlign": "left",
-          "colSizing": "equal"
+          "colSizing": "equal",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
         },
         "children": [
           "flex-layout.col#departamento1Col1",

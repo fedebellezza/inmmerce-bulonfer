@@ -39,15 +39,15 @@
 .flexRow--footer2{
     align-items: center;
     text-align: center;
-    margin: 0 auto;
-    padding: 0 auto;
-    border-bottom: 1px solid #cccccc;
+    margin-bottom:15px;
     height: 30px;
     font-size: 18px;
+    border-bottom: 1px solid #cccccc;
 }
-.flexRow--footer3{
+.flexRow--foot3{
     align-items: center;
     text-align: center;
+    margin-top: 25px;
     margin-bottom: 15px;
     border-bottom: 1px solid #cccccc;
     font-size: 18px;
@@ -82,6 +82,8 @@
     margin-right: 10%;
     padding-left: 0;
     text-align: left;
+    width: 100%;
+    background-color: #fff;
 }
 
 /*---Menu Fede---*/

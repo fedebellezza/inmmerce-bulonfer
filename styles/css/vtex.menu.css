@@ -17,8 +17,17 @@
     border-bottom: 1px solid #ccc;
     border-top: 1px solid #ccc;
     margin-bottom: 15px;
+    width: 100%;
 
 }
+
+.submenuWrapper--isOpen{
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 0%;
+
+}
+
 
 .styledLinkContent--categoria{
     font-size: 14px;

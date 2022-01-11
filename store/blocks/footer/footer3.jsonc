@@ -4,7 +4,12 @@
             "flex-layout.col#descargo",
             "flex-layout.col#newsletter",
             "flex-layout.col#afip"
-        ]
+        ],
+        "props": {
+            "blockClass": "foot3"
+            //"textAlignment": "LEFT",
+            //"textPosition": "LEFT",
+            }
     },
     "flex-layout.col#descargo":{
         "children":[

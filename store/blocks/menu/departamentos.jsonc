@@ -1,7 +1,7 @@
 {
 "flex-layout.row#MenuFede":{
     "children": [
-        "vtex.menu@2.x:menu#menu"
+        "vtex.menu@2.x:menu#menuFede"
     ],
     "props":{
         "blockClass": "rowMenu",
@@ -9,20 +9,20 @@
     }
 },
 
-    "vtex.menu@2.x:menu#menu":{
+    "vtex.menu@2.x:menu#menuFede":{
         "children":[
-            "menu-item#menu1",
-            "menu-item#menu2",
-            "menu-item#menu3",
-            "menu-item#menu4",
-            "menu-item#menu5",
-            "menu-item#menu6"
+            "menu-item#menuFede1",
+            "menu-item#menuFede2",
+            "menu-item#menuFede3",
+            "menu-item#menuFede4",
+            "menu-item#menuFede5",
+            "menu-item#menuFede6"
         ],
         "props":{
             "blockClass":"menuFede"
         }
     },
-        "menu-item#menu1": {
+        "menu-item#menuFede1": {
             "props": {
             "id": "menu1",
             "type": "custom",
@@ -41,7 +41,7 @@
               "vtex.menu@2.x:submenu#departamento1"
             ]
         },
-        "menu-item#menu2": {
+        "menu-item#menuFede2": {
             "props": {
             "id": "menu2",
             "type": "custom",
@@ -57,7 +57,7 @@
             }
             }
         },
-        "menu-item#menu3": {
+        "menu-item#menuFede3": {
             "props": {
             "id": "menu3",
             "type": "custom",
@@ -73,7 +73,7 @@
             }
             }
         },
-        "menu-item#menu4": {
+        "menu-item#menuFede4": {
             "props": {
             "id": "menu4",
             "type": "custom",
@@ -89,7 +89,7 @@
             }
             }
         },
-        "menu-item#menu5": {
+        "menu-item#menuFede5": {
             "props": {
             "id": "menu5",
             "type": "custom",
@@ -105,7 +105,7 @@
             }
             }
         },
-        "menu-item#menu6": {
+        "menu-item#menuFede6": {
             "props": {
             "id": "menu6",
             "type": "custom",
