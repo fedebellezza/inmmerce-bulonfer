@@ -12,16 +12,16 @@
 .searchBarContainer{
     width: 80%; 
 }
-
-.imageElement--imgx2{
+/*
+.imageElement--imgx3-1{
     border-radius: 5%;
-    margin: 5px;
+    margin: 15px 25px 15px 0px;
 }
 
 .imageElement--imgx1{
     border-radius: 5%;
     margin: 5px;
-}
+}*/
 .vtex-button{
     background-color: #00b7cd;
 

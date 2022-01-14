@@ -114,10 +114,10 @@
             "blockClass":"menufooter",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/landing-especial",
                 "noFollow": false,
-                "tagTitle": "Super Oertas",
-                "text": "Super Ofertas"
+                "tagTitle": "landing-especial",
+                "text": "Landing Especial"
             }
             }
         }

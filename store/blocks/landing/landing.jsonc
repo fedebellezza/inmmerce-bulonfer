@@ -5,9 +5,10 @@
       "flex-layout.row#categoria1",
       "flex-layout.row#productosTitRecomendados",
       "flex-layout.row#productosRecomendados" ,
+      "flex-layout.row#categoria2",
       "flex-layout.row#categoriaTitRecomendados",
       "flex-layout.row#categoriaRecomendados"/*,
-            "flex-layout.row#categoria2", //repito seccion segun necesite para mas categorias
+             //repito seccion segun necesite para mas categorias
             "flex-layout.row#categoria3"*/
     ]
   },
@@ -21,7 +22,7 @@
       "height": 400,
       "images": [
         {
-          "image": "https://tiendatest3.myvtex.com/arquivos/corte_sup.jpg",
+          "image": "https://github.com/fedebellezza/inmmerce-bulonfer/blob/master/arquivos/corte_sup.jpg?raw=true",
           "mobileImage": "https://bulonfer.vtexassets.com/assets/vtex.file-manager-graphql/images/4f8ab2f9-2fb7-4e8d-86e5-b252f29daba0___f250d98761fabaee4509640571049c87.jpg"
         }
       ]
@@ -53,14 +54,17 @@
     "flex-layout.col#categoria1-1":{
       "children": [
         "image#img1"
-        ]      
+        ],
+        "props": {
+          "blockClass":"imgIzq"
+        }      
       },
       
           "image#img1": {
             "props": {
-              "blockClass":"imgx2",
-              "src": "https://arcencohogareasy.vtexassets.com/assets/vtex.file-manager-graphql/images/1b816ae2-2c09-4a36-baa1-8ba8faa14e54___9dcfdf2504b1bfb378ac53bf9015d22a.jpg",
-              "maxHeight": "240px",
+              "blockClass":"imgx3-1",
+              "src": "https://github.com/fedebellezza/inmmerce-bulonfer/blob/master/arquivos/Lijadura_2.png?raw=true",
+              "maxHeight": "400px",
               "link": {
                 "newTab": false,
                 "url":"www.bulonfer.com"
@@ -71,13 +75,16 @@
     "children": [
       "image#img2"
       
-      ]      
+      ],
+      "props": {
+        "blockClass":"imgCent"
+      }         
     },
         "image#img2": {
           "props": {
             "blockClass":"imgx2",
-            "src": "https://arcencohogareasy.vtexassets.com/assets/vtex.file-manager-graphql/images/1b816ae2-2c09-4a36-baa1-8ba8faa14e54___9dcfdf2504b1bfb378ac53bf9015d22a.jpg",
-            "maxHeight": "240px",
+            "src": "https://github.com/fedebellezza/inmmerce-bulonfer/blob/master/arquivos/coldadura.png?raw=true",
+            "maxHeight": "400px",
             "link": {
               "newTab": false,
               "url":"www.bulonfer.com"
@@ -88,13 +95,16 @@
     "children": [
       "image#img3"
       
-      ]      
+      ],
+      "props": {
+        "blockClass":"imgDer"
+      }         
     },
         "image#img3": {
           "props": {
             "blockClass":"imgx2",
-            "src": "https://arcencohogareasy.vtexassets.com/assets/vtex.file-manager-graphql/images/1b816ae2-2c09-4a36-baa1-8ba8faa14e54___9dcfdf2504b1bfb378ac53bf9015d22a.jpg",
-            "maxHeight": "240px",
+            "src": "https://github.com/fedebellezza/inmmerce-bulonfer/blob/master/arquivos/compresores_2.png?raw=true",
+            "maxHeight": "400px",
             "link": {
               "newTab": false,
               "url":"www.bulonfer.com"
@@ -157,6 +167,50 @@
               "maxWidth": "80%"
             }
           },
+
+  "flex-layout.row#categoria2":{
+    "children": [
+      "flex-layout.col#categoria2-1",
+      "flex-layout.col#categoria2-2"
+    ],
+    "props":{
+      "blockClass":"categoriaX2"
+    }
+  },
+    "flex-layout.col#categoria2-1":{
+      "children": [
+        "image#img2-1"
+        ]        
+      },
+      
+          "image#img2-1": {
+            "props": {
+              "blockClass":"imgx2",
+              "src": "https://github.com/fedebellezza/inmmerce-bulonfer/blob/master/arquivos/corte.png?raw=true",
+              "maxHeight": "400px",
+              "link": {
+                "newTab": false,
+                "url":"www.bulonfer.com"
+              }
+            }
+          },
+  "flex-layout.col#categoria2-2":{
+    "children": [
+      "image#img2-2"
+      
+      ]         
+    },
+        "image#img2-2": {
+          "props": {
+            "blockClass":"imgx2",
+            "src": "https://github.com/fedebellezza/inmmerce-bulonfer/blob/master/arquivos/perforacion_2.png?raw=true",
+            "maxHeight": "400px",
+            "link": {
+              "newTab": false,
+              "url":"www.bulonfer.com"
+            }
+          }
+        },
   
   "flex-layout.row#categoriaTitRecomendados": {
     "children": ["rich-text#tituloRecomendados"]

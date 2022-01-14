@@ -1,7 +1,5 @@
 {
-  "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
-  },
+  
   "header.full": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
@@ -11,31 +9,19 @@
       "flex-layout.row#2-header-desktop",
       "flex-layout.row#3-header-desktop"
     ]
-  }/*,
+  },
 
   
   "header-layout.mobile": {
-    "children": ["menu-inmmerce"]
+    "children": ["sticky-layout#mobile"]
   },
   "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
+    "children": ["flex-layout.row#mobile1", "flex-layout.row#mobile2"]
   },
-  "flex-layout.row#mobile": {
-    "children": [
-      "drawer",
-      "logo",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
-    ],
-    "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-  "drawer": {
-    "children": []
-  }*/
+ 
+
+  "flex-layout.row#mobile2":{
+    "children": ["search-bar"]
+  }
+
 }

@@ -131,5 +131,18 @@
           "OrderByReleaseDateDESC"
         ]
       }
+    },
+
+    "search-not-found-layout": {
+      "children": ["flex-layout.row#notfound"]
+    },
+  
+    "flex-layout.row#notfound": {
+      "children": ["not-found"],
+      "props": {
+        "fullWidth": true
+      }
     }
+  
+    
   }

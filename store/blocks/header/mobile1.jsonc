@@ -1,0 +1,41 @@
+{
+    "flex-layout.row#mobile1": {
+        "children": [      
+          "drawer",  
+          "logo#mobile",    
+          "flex-layout.col#spacer",
+          "login",
+          "minicart.v2"
+        ],
+        "props": {
+          "blockClass": "main-header-mobile",
+          "preventHorizontalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "fullWidth": true
+        }
+      },
+      "drawer": {
+        "children": ["menu#drawer"]
+      },
+      "logo#mobile": {
+        "props": {
+          "title": "Logo",
+          "href": "/",
+          "url": "https://bulonfer.vtexassets.com/assets/vtex/assets-builder/bulonfer.lund-theme-1-0-0/1.33.0/bulonferlogonuevo___44819ebb2332c304925117c15d169824.png",
+          "width": "140",
+          "horizontalAlign": "center",
+          "verticalAlign": "center"
+        }
+      },
+      "login":{
+        "props": {
+          "verticalAlign": "center",
+          "emailAndPasswordTitle": "LOG-IN",
+          "accessCodeTitle": "Acess Code LOG-IN",
+          "emailPlaceholder": "e-mail",
+          "passwordPlaceholder": "password",
+          "showIconProfile": true,
+        "hideIconLabel": false
+        }
+      }
+}
